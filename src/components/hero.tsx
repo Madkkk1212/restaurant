@@ -39,7 +39,7 @@ export function Hero() {
             Welcome to
           </span>
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif text-white mb-6 tracking-tighter">
-            Afif Restaurant
+            Luma Restaurant
           </h1>
           <p className="text-xl md:text-2xl text-white/80 font-sans mb-12 italic max-w-2xl mx-auto leading-relaxed">
             “Experience Authentic Flavor with Modern Culinary Art”

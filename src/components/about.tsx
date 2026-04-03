@@ -42,7 +42,7 @@ export function About() {
               className="space-y-6"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Afif Restaurant is a modern dining destination that blends traditional 
+                Luma Restaurant is a modern dining destination that blends traditional 
                 Indonesian flavors with contemporary culinary techniques. Our journey 
                 began with a simple vision: to elevate authentic recipes into a world-class 
                 dining experience.

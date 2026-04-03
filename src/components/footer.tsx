@@ -24,7 +24,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex flex-col mb-4">
               <span className="text-3xl font-serif font-bold tracking-tighter text-accent">
-                AFIF
+                LUMA
               </span>
               <span className="text-xs uppercase tracking-[0.3em] -mt-1 opacity-80">
                 Restaurant
@@ -76,7 +76,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-accent/10 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-[10px] uppercase tracking-widest opacity-60">
-          <p>© {new Date().getFullYear()} Afif Restaurant. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Luma Restaurant. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="#" className="hover:text-accent transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-accent transition-colors">Terms of Service</Link>

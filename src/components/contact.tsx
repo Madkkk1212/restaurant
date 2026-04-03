@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email Us',
-    details: 'hello@afifrestaurant.com',
+    details: 'hello@lumarestaurant.com',
   },
   {
     icon: Clock,

@@ -21,7 +21,7 @@ const testimonials = [
   {
     name: 'David Chen',
     role: 'Regular Guest',
-    content: "Exceptional service and atmosphere. Afif Restaurant is my go-to place for special occasions.",
+    content: "Exceptional service and atmosphere. Luma Restaurant is my go-to place for special occasions.",
     stars: 5,
   },
 ];

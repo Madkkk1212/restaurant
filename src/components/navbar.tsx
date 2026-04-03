@@ -15,14 +15,25 @@ const navLinks = [
   { name: 'Contact', href: '#contact' },
 ];
 
+import { useTheme } from 'next-themes';
+
 export function Navbar() {
+  const [mounted, setMounted] = React.useState(false);
   const [isOpen, setIsOpen] = React.useState(false);
   const { scrollY } = useScroll();
+  const { theme } = useTheme();
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
   
   const backgroundColor = useTransform(
     scrollY,
     [0, 100],
-    ['rgba(15, 15, 15, 0)', 'rgba(15, 15, 15, 0.8)']
+    [
+      'rgba(15, 15, 15, 0)', 
+      mounted && theme === 'light' ? 'rgba(255, 255, 255, 0.8)' : 'rgba(15, 15, 15, 0.8)'
+    ]
   );
   
   const backdropFilter = useTransform(
@@ -34,7 +45,10 @@ export function Navbar() {
   const borderBottom = useTransform(
     scrollY,
     [0, 100],
-    ['1px solid rgba(212, 175, 55, 0)', '1px solid rgba(212, 175, 55, 0.2)']
+    [
+      '1px solid rgba(212, 175, 55, 0)', 
+      mounted && theme === 'light' ? '1px solid rgba(0, 0, 0, 0.1)' : '1px solid rgba(212, 175, 55, 0.2)'
+    ]
   );
 
   return (
@@ -47,7 +61,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex flex-col">
             <span className="text-2xl font-serif font-bold tracking-tighter text-accent">
-              AFIF
+              LUMA
             </span>
             <span className="text-[10px] uppercase tracking-[0.3em] -mt-1 opacity-80">
               Restaurant

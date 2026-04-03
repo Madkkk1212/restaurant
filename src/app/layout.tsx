@@ -14,19 +14,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Afif Restaurant | Experience Authentic Flavor",
-  description: "Afif Restaurant is a modern dining destination that blends traditional Indonesian flavors with contemporary culinary techniques.",
+  title: "Luma Restaurant | Experience Authentic Flavor",
+  description: "Luma Restaurant is a modern dining destination that blends traditional Indonesian flavors with contemporary culinary techniques.",
   openGraph: {
-    title: "Afif Restaurant",
+    title: "Luma Restaurant",
     description: "Experience Authentic Flavor with Modern Culinary Art",
     type: "website",
-    url: "https://afif-restaurant.com",
+    url: "https://luma-restaurant.com",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Afif Restaurant - Premium Dining",
+        alt: "Luma Restaurant - Premium Dining",
       },
     ],
   },
